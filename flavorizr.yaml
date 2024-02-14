@@ -1,0 +1,21 @@
+flavors:
+  dev:
+    app:
+      name: "Dev App"
+
+    android:
+      applicationId: "com.example.flavorizer_test.dev"  
+    ios:
+      bundleId: "com.example.flavorizerTest.dev"
+    macos:
+      bundleId: "com.example.flavorizerTest.dev"  
+  prod:
+    app:
+      name: "Prod App"
+  
+    android:
+      applicationId: "com.example.flavorizer_test"
+    ios:
+      bundleId: "com.example.flavorizerTest"
+    macos:
+      bundleId: "com.example.flavorizerTest"
