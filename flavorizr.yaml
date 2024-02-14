@@ -1,21 +1,28 @@
+ide: "vscode"
+app:
+  android:
+    flavorDimensions: "flavor-type"
+  # ios:
+
 flavors:
+
   dev:
     app:
       name: "Dev App"
 
     android:
-      applicationId: "com.example.flavorizer_test.dev"  
+      applicationId: "com.dev.flavorizer_test"  
     ios:
-      bundleId: "com.example.flavorizerTest.dev"
+      bundleId: "com.dev.flavorizerTest"
     macos:
-      bundleId: "com.example.flavorizerTest.dev"  
+      bundleId: "com.dev.flavorizerTest"  
   prod:
     app:
       name: "Prod App"
   
     android:
-      applicationId: "com.example.flavorizer_test"
+      applicationId: "com.prod.flavorizer_test"
     ios:
-      bundleId: "com.example.flavorizerTest"
+      bundleId: "com.prod.flavorizerTest"
     macos:
-      bundleId: "com.example.flavorizerTest"
+      bundleId: "com.prod.flavorizerTest"
